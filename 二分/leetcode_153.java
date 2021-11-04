@@ -2,7 +2,7 @@ package 二分;
 import java.util.Arrays;
 /**
  * @Time 2021-11-3
- * @Title leetcode_153 寻找旋转排序数组
+ * @Title leetcode_153 寻找旋转排序数组中的最小值
  * @Difficulty_Level middle
  */
 /*
