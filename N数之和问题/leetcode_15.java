@@ -19,6 +19,8 @@ import java.util.List;
     如果nums[i] ==nums[i−1]，则说明该数字重复，会导致结果重复，所以应该跳过
     当 sum==0时，nums[L] ==nums[L+1] 则会导致结果重复，应该跳过，L++
     当 sum==0时，nums[R] == nums[R−1] 则会导致结果重复，应该跳过，R--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    学习一个新的方法，Arrays类下的，asList(),Arrays.asList()可以将数组转化为List集合。
  */
 public class leetcode_15 {
     public List<List<Integer>> threeSum(int[] nums) {
