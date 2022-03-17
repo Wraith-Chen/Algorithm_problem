@@ -3,7 +3,7 @@ package 链表;
 /**
  * @Time 2021-12-07
  * @Title leetcode_21 合并两个有序链表
- * @Difficulty_Level eassy
+ * @Difficulty_Level easy
  */
 /*
     方法一：递归
