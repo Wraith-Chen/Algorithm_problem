@@ -27,5 +27,4 @@ public class offer_04 {
             }
             return false;
         }
-    }
 }
