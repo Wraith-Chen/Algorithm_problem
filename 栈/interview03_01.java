@@ -6,7 +6,8 @@ package 栈;
  * @Difficulty_Level easy
  */
 /*
-
+    简单的创建栈，这里我们考虑用二维数组去创建。
+    二维数组每一行代表一个栈，同时用一个标志数组，记录每个栈的待插入下标。
  */
 
 public class interview03_01 {
@@ -41,6 +42,7 @@ public class interview03_01 {
             if (loc > 0) {
                 int val = stk[loc - 1];
                 locations[stackNum]--;
+                //元素出栈标志数字减1
                 return val;
             } else {
                 return -1;
