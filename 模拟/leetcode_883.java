@@ -1,4 +1,7 @@
 package 模拟;
+
+import java.util.HashMap;
+
 /**
  * @Time 2022-4-27
  * @Title leetcode_883 三维形体投影面积
