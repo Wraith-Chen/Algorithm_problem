@@ -19,8 +19,8 @@ import java.util.Map;
 public class leetcode_3 {
  public int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> map = new HashMap<>();
-        int ans = 0;
-        for (int start = 0, end = 0; end < s.length(); end++) {
+        int ans = 0,start=0 ,end=0;
+        for (   ; end < s.length(); end++) {
             char right = s.charAt(end);
             map.put(right, map.getOrDefault(right, 0) + 1);
             while (map.get(right) > 1) {
