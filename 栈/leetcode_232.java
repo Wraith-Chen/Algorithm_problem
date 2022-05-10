@@ -12,7 +12,6 @@ import java.util.Deque;
     都可以通过使用两个栈/队列来解决。
     我们创建两个栈，分别为 out 和 in，用作处理「输出」和「输入」操作。
     其实就是两个栈来回「倒腾」。
-
 */
 public class leetcode_232 {
     Deque<Integer> out, in;
