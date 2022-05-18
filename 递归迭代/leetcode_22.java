@@ -35,7 +35,6 @@ public class leetcode_22 {
             res.add(curStr);
             return;
         }
-
         // 剪枝
         if (left < right) {
             return;
