@@ -1,7 +1,7 @@
 package 剑指offer;
 /**
  * @Time 2022-05-16
- * @Title offer_05 替换空格
+ * @Title 剑指offer_05 替换空格
  * @Difficulty_Level easy
  */
 /*
